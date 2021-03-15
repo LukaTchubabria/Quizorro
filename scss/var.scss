@@ -1,0 +1,18 @@
+$c-2A: #2A2A2A;
+$c-34: #343434;
+$c-3E: #3E3E3E;
+$c-66: #666666;
+$c-FA: #FAFAFA;
+$Purple: #5F00F9;
+
+@mixin font($s, $f, $c){
+    font-size: $s;
+    font-family: $f;
+    color: $c;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+}
+
